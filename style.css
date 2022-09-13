@@ -1,0 +1,215 @@
+header {
+
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+.logo {
+
+    color: #f9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px;
+    align-self: center;
+}
+
+ul {
+
+font-size: 18px;
+color: #E5E7EB;
+list-style-type: none;
+display: flex;
+margin: 16px;
+gap: 16px;
+}
+
+
+
+
+.Section1{
+
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.s1g1 {
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+h1 {
+
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9FAF8;
+    margin-bottom: 0;
+}
+
+.herosubtext {
+
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.g1image {
+
+    align-self: center;
+}
+
+.heroimage  {
+
+width: 400px;
+height: 200px;
+padding: 10px;
+
+}
+
+.s1button {
+
+width: 120px;
+background-color: #3882F6;
+color: #f9FAF8;
+font-weight: bolder;
+font-size: 18px;
+border-radius: 8px;
+padding: 6px;
+margin-top: 5px;
+
+}
+
+footer {
+
+display: flex;
+align-self: center;
+justify-content: space-around;
+background-color: #1f2937;
+color: #E5E7EB;
+}
+
+
+h2 {
+
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+
+
+.Container1 {
+
+    display: flex;
+    padding: 32px;
+    padding-top: 0;
+    justify-content: space-evenly;
+}
+
+
+.box {
+
+margin: 16px;
+width: 160px;
+text-align: center;
+
+}
+
+.blue {
+
+height: 160px;
+width: 160px;
+border: 2px solid blue;
+border-radius: 5px;
+
+}
+
+.Section2 {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.Section3 {
+
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+
+}
+
+.quote {
+
+
+font-style: italic;
+font-size: 36px;
+color: #1f2937;
+font-weight: light;
+
+}
+
+.signed {
+
+font-size: 22px;
+font-weight: bold;
+color: #1f2937;
+align-self: flex-end;
+
+}
+
+.Section4 {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.Container2 {
+
+    background-color: #3882F6;
+    width: 800px;
+    height: 70px;
+    align-items: center;
+    margin: 50px;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+
+.ctatext {
+
+    font-size: 22px;
+    color: #E5E7EB;
+    font-weight: bold;
+
+}
+
+.ctasubtext {
+
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+
+.s4button {
+
+    width: 120px;
+    background-color: #3882F6;
+    color: #f9FAF8;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 6px;
+    margin: 5px;    
+    border: 2px solid #E5E7EB;
+}
