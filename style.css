@@ -1,10 +1,18 @@
-header {
+body {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
 
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    margin: 0;
+    align-items: center;
+  
 }
+
 
 
 .logo {
@@ -28,23 +36,32 @@ gap: 16px;
 
 
 
-
 .Section1{
 
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    justify-content: center;
+
+  
+}
+
+.hero {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
 }
 
 .s1g1 {
 
     display: flex;
+    flex-basis: 400px;
+    margin-right: 50px;
     flex-direction: column;
-    width: 300px;
 }
+
+
 
 h1 {
 
@@ -60,12 +77,9 @@ h1 {
     color: #E5E7EB;
 }
 
-.g1image {
 
-    align-self: center;
-}
 
-.heroimage  {
+.image  {
 
 width: 400px;
 height: 200px;
@@ -86,7 +100,7 @@ margin-top: 5px;
 
 }
 
-footer {
+.footer {
 
 display: flex;
 align-self: center;
@@ -109,7 +123,9 @@ h2 {
     display: flex;
     padding: 32px;
     padding-top: 0;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
+
 }
 
 
@@ -141,8 +157,16 @@ border-radius: 5px;
 
     background-color: lightgray;
     display: flex;
+    justify-content: center;
+
+}
+
+.test {
+    display: flex;
     flex-direction: column;
     padding: 45px;
+    max-width: 900px;
+    align-items: center;
 
 }
 
