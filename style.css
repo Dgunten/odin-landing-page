@@ -1,7 +1,4 @@
 body {
-
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
 }
@@ -24,6 +21,7 @@ body {
     font-weight: bold;
     padding: 16px;
     align-self: center;
+    margin-left: 40px;
 }
 
 ul {
@@ -34,6 +32,7 @@ list-style-type: none;
 display: flex;
 margin: 16px;
 gap: 16px;
+margin-right: 40px;
 }
 
 
@@ -102,20 +101,18 @@ margin-top: 5px;
 
 }
 
-.footer {
+footer {
 
-display: flex;
-justify-content: center;
-background-color: #1f2937;
-color: #E5E7EB;
+    text-align: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 12px;
 }
 
 
 h2 {
 
-    display: flex;
-    align-self: center;
-    justify-content: space-around;
+    text-align: center;
 }
 
 
@@ -156,9 +153,9 @@ border-radius: 5px;
 
 .Section3 {
 
-    background-color: lightgray;
     display: flex;
     justify-content: center;
+    background-color: lightgray;
 
 }
 
